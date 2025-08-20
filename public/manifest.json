@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Offline Bookmark Saver",
+  "version": "1.0",
+  "description": "Save bookmarks offline using Dexie.js + React + TypeScript",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "src/popup/index.html"
+  }
+}
